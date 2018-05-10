@@ -1,0 +1,5 @@
+<linker>
+<assembly fullname="System.Configuration">
+  <namespace fullname="System.Configuration" preserve="all" />
+</assembly>
+</linker>

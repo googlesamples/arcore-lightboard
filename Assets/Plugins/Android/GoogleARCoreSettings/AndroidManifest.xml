@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.ar.core.unity.manifestsettings"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <application>
+        <meta-data android:name="com.google.ar.core" android:value="required" />
+
+
+    </application>
+    <uses-feature android:name="android.hardware.camera.ar"></uses-feature>
+</manifest>

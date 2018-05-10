@@ -1,0 +1,9 @@
+﻿<dependencies>
+    <iosPods>
+        <iosPod name="ARCore" version="1.2.0" minTargetSdk="11.0">
+            <sources>
+                <source>sso://cpdc-internal/spec</source>
+            </sources>
+        </iosPod>
+    </iosPods>
+</dependencies>

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1581382283765134}
+  m_IsPrefabParent: 1
+--- !u!1 &1581382283765134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4965688944940806}
+  - component: {fileID: 114303125126936926}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4965688944940806
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581382283765134}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114303125126936926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581382283765134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde935af220bf4d1bbfc8543724d575a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardPrefab: {fileID: 1140809025151322, guid: ab9a0785cac1edf429c6cb0cda59d039,
+    type: 2}
+  placerPrefab: {fileID: 1160766749380410, guid: 75e3a5f04e4704a9cbec791ff6ecfbfb,
+    type: 2}
+  islandPrefab: {fileID: 1188424406119654, guid: 7e5e1fe61fa58494f8ede87ac97b8c59,
+    type: 2}
+  trajectoryPrefab: {fileID: 1994568211131632, guid: 92dd9ee778e0944c4b9a0b611401116c,
+    type: 2}
+  launcherPrefab: {fileID: 1787526259649592, guid: 2745c98f660d647f5b2aa20d6a26261e,
+    type: 2}
+  projectilePrefab: {fileID: 1223310528205726, guid: c77e45f097e1f4fc9bcf9ab963991cd0,
+    type: 2}
+  projectileGlowPrefab: {fileID: 1465501101070216, guid: 33e2381e7867e4072a0dcb4b9a57409c,
+    type: 2}
+  tileDebisPrefab: {fileID: 1427745912893622, guid: a7e877691a848ce4ea0c99be117d8652,
+    type: 2}
+  sparksPrefabs:
+  - {fileID: 1720259857264890, guid: f0cd55095d1c88046ac3ae67e8a2a012, type: 2}
+  - {fileID: 1633949358146560, guid: 1ca59843827ef6141b4c22f594d9281a, type: 2}
+  player0Color: {r: 0.6764706, g: 0.6764706, b: 0.6764706, a: 1}
+  player1Color: {r: 0.98039216, g: 0.27450982, b: 0.08627451, a: 1}
+  player2Color: {r: 0, g: 0.5862069, b: 1, a: 1}
+  player0InnerMaterial: {fileID: 2100000, guid: 9731f3bd2f4016a4e94935965be4448f,
+    type: 2}
+  player0OuterMaterial: {fileID: 2100000, guid: 37fe6fc3c3d64a74da0f0a475bdfd807,
+    type: 2}
+  player1InnerMaterial: {fileID: 2100000, guid: 335576a59970d6b4e87f6cd978f8a3aa,
+    type: 2}
+  player1OuterMaterial: {fileID: 2100000, guid: 67e956891c679694c96118d5d6cedf56,
+    type: 2}
+  player2InnerMaterial: {fileID: 2100000, guid: 85364f9ba5711d4478db8a29e917fd4e,
+    type: 2}
+  player2OuterMaterial: {fileID: 2100000, guid: b65098cbba408454882a648830e57ba0,
+    type: 2}

@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: d880c91a4803af14fade4b7a5077907c
+timeCreated: 1523594668
+licenseType: Pro
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Google Sans Display
+  fontNames:
+  - Google Sans Display
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8050cd33884973849ac8d8b7e83072d7, type: 3}
+  - {fileID: 12800000, guid: 060b0e45f7ab36a46bf358b8891e7c4a, type: 3}
+  - {fileID: 12800000, guid: 0918cf263c258b54d986a995a19b144c, type: 3}
+  - {fileID: 12800000, guid: 7b85ff2ecc994b34ca7588417a6ef6df, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
